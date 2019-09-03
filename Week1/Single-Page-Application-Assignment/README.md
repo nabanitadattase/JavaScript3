@@ -1,34 +1,15 @@
-# Reading material for the first lecture:
+Assignment
 
-```
-In week one we will discuss the following topics:
-• Structure for a basic SPA (Single Page Application)
-• XMLHttpRequests
-• API calls
-```
+The assignment is to build a Single Page Application.
 
-Here are resources that we like you to read as a preparation for the first lecture:
+You can fetch a list of FooCoding repositories through this API endpoint (What is an API Endpoint?):
 
-### Fundamentals
+https://api.github.com/orgs/foocoding/repos?per_page=100
 
-- [XMLHttpRequest](../../../../fundamentals/blob/master/fundamentals/XMLHttpRequest.md)
+It should include the following components:
 
-### APIs
+An HTML select element from which the user can select a FooCoding repository. This select element must be populated with option elements, one for each FooCoding repository.
 
-- Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work
+A left-hand column that displays basic information about the selected repository.
 
-### XMLHttpRequests
-
-- [Making HTTP Requests in JavaScript](https://www.kirupa.com/html5/making_http_requests_js.htm)
-
-### Clean Code
-
-- [How to write clean code? Lessons learnt from “The Clean Code” — Robert C. Martin](https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c).
-
-  > Note that this article includes some code examples written in Java, but the same principles can equally be applied to JavaScript.
-
-- [Clean Code concepts adapted for JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
-
-### Handing in homework using GitHub pull requests
-
-- [Handing in homework](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/homework_pr.md)
+A right-hand column that displays a list of contributors to the repository.
